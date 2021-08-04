@@ -1,0 +1,142 @@
+/*== style cơ bản cho website==*/
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif
+    font-weight: 300;
+    color: #333;
+    line-height: 1.254;
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:gold;
+    transittion: all 0.5s;
+    -moz-ransittion: all 0.5s;
+    -webkit-transittion: all 0.5s;
+
+}
+a:hover { 
+    color: red;
+}
+/*==Chia cột website==*/
+
+#container{
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu{
+    position: fixed;
+    height: 100%;
+    background-color: #191818;
+    width:150px;
+    left:0;
+}
+/*==menu==*/
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+#menu ul li{
+    line-height: 2.9em;
+    height: 2.9em;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    position: relative;
+}
+#menu .submenu{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 150px;
+    background-color: #191818;
+    width: 70px;
+}
+#menu .submenu a{
+    width: max-content;
+    display: block;
+}
+#menu ul li a{
+    display: block;
+    color:#fff;
+    padding: 0 0.5em;
+    border-bottom: 1px solid white;
+}
+#menu ul li:hover{
+    background-color: #454545;
+
+}
+#menu ul li:hover .submenu{
+    display: block;
+     
+}
+/*== content==*/
+#content{
+    padding: 1em 8em;
+}
+#header, .calltoaction{
+    text-align: center;
+}
+#header #slogan{
+    color: yellowgreen;
+    font-size: 70px;
+    font-weight: bold;
+}
+.calltoaction{
+    padding: 1.5em 20%;
+    background-color: #efefef;
+    border: 3px solid red;
+}
+/*== row==*/
+.row{
+    overflow:hidden ;
+    margin: 1.5em auto
+}
+.row .col{
+    float: left;
+    width: 90%;
+    margin-right: 1em;
+
+}
+#footer{
+    font-size: 85%;
+    border-top: 1px solid #e6e6e6;
+    color: #838383;
+    padding: 1em 3em;
+    font-size: 20px;
+}
+
+.calltoaction .h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.calltoaction p{
+    font-size: 20px;
+}
+.row .col .h2{
+    font-size: 50px;
+    font-weight: bold;
+    display: box;
+    color: green;
+    margin:30px;
+}
+.row .col .p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-display: ;
+    margin-top: 10px;
+}
+.row .col .img{
+    margin-left: 45px ;
+}
