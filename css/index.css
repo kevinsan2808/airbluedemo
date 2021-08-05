@@ -60,10 +60,10 @@ a:hover {
     top: 0;
     left: 150px;
     background-color: #191818;
-    width: 70px;
+    width: 150px;
 }
 #menu .submenu a{
-    width: max-content;
+    width: 150px;
     display: block;
 }
 #menu ul li a{
@@ -140,3 +140,4 @@ a:hover {
 .row .col .img{
     margin-left: 45px ;
 }
+
